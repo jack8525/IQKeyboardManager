@@ -2011,7 +2011,7 @@ NSInteger const kIQPreviousNextButtonToolbarTag     =   -1005;
     }
 
     if (_doneBlock) {
-        _doneBlock()
+        _doneBlock();
     }
 }
 
