@@ -82,6 +82,11 @@ extern NSInteger const kIQPreviousNextButtonToolbarTag;
 @property(nonatomic, assign, getter = isEnabled) BOOL enable;
 
 /**
+ 完成按钮回调
+ */
+@property (nonatomic, copy) void(^doneBlock)(void);
+
+/**
  To set keyboard distance from textField. can't be less than zero. Default is 10.0.
  */
 @property(nonatomic, assign) CGFloat keyboardDistanceFromTextField;

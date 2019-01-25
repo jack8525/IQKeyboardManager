@@ -2009,6 +2009,10 @@ NSInteger const kIQPreviousNextButtonToolbarTag     =   -1005;
 
         [barButton.invocation invoke];
     }
+
+    if (_doneBlock) {
+        _doneBlock()
+    }
 }
 
 #pragma mark - Customised textField/textView support.
